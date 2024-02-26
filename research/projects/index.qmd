@@ -14,11 +14,11 @@ These are the 'official' projects.
 
 [Projekt homepage](https://green-transition.project.uj.edu.pl/en_GB/start)
 
-|               |                               |
-|---------------|-------------------------------|
-| Time period:  | October 2023 - September 2026 |
-| Funding sum:  | 295.000 EUR (German part)     |
-| My role:      | Principal investigator        |
+|              |                               |
+|--------------|-------------------------------|
+| Time period: | October 2023 - September 2026 |
+| Funding sum: | 295.000 EUR (German part)     |
+| My role:     | Principal investigator        |
 
 ### Spatial Competition and Economic Policies (SPACE): Discourses, Institutions and Everyday Practices
 
@@ -26,7 +26,11 @@ These are the 'official' projects.
 
 [Projekt homepage](https://spatial-competition.com/)
 
-\|--------------\|-------------------------------------\| \| Time period: \| June 2019 - April 2024 \| \| Funding sum: \| 2.5 Mio EUR \| \| My role: \| One of five principal investigators \|
+|              |                                     |
+|--------------|-------------------------------------|
+| Time period: | June 2019 - April 2024              |
+| Funding sum: | 2.5 Mio EUR                         |
+| My role:     | One of five principal investigators |
 
 ## Completed projects
 
@@ -36,7 +40,11 @@ These are the 'official' projects.
 
 [Projekt homepage](https://www.jku.at/institut-fuer-die-gesamtanalyse-der-wirtschaft/projekte/laufende-forschungsprojekte/internationale-wettbewerbsfaehigkeit/)
 
-\|--------------\|-------------------------------\| \| Time period: \| January 2020 - August 2021 \| \| Funding sum: \| 107.000 EUR \| \| My role: \| Principal investigator \|
+|              |                            |
+|--------------|----------------------------|
+| Time period: | January 2020 - August 2021 |
+| Funding sum: | 107.000 EUR                |
+| My role:     | Principal investigator     |
 
 ### Country capabilities, product complexity, and finance in the EU: An AB-SFC multi-country model for policy analysis
 
@@ -44,7 +52,11 @@ These are the 'official' projects.
 
 [Projekt homepage](https://www.rebuildingmacroeconomics.ac.uk/country-capabilities)
 
-\|--------------\|-------------------------------\| \| Time period: \| May 2019 - October 2020 \| \| Funding sum: \| 80.000 EUR \| \| My role: \| Principal investigator \|
+|              |                         |
+|--------------|-------------------------|
+| Time period: | May 2019 - October 2020 |
+| Funding sum: | 80.000 EUR              |
+| My role:     | Principal investigator  |
 
 ### Political and economic polarization in Europe
 
@@ -52,7 +64,11 @@ These are the 'official' projects.
 
 [Projekt homepage](https://www.fes.de/wirtschaftliche-polarisierung-in-europa)
 
-\|--------------\|-------------------------------\| \| Time period: \| January 2019 - June 2019 \| \| Funding sum: \| 10.000 EUR \| \| My role: \| Post-Doc researcher
+|              |                           |
+|--------------|---------------------------|
+| Time period: |  January 2019 - June 2019 |
+| Funding sum: | 10.000 EUR                |
+| My role:     | Post-Doc researcher       |
 
 ### The Political Economy of Competitiveness and Trade-Openness: An analysis of the dynamics of global economic integration
 
@@ -60,7 +76,11 @@ These are the 'official' projects.
 
 [Projekt homepage](https://www.jku.at/institut-fuer-die-gesamtanalyse-der-wirtschaft/projekte/abgeschlossene-forschungsprojekte/wettbewerbsfaehigkeit-handelsoffenheit/)
 
-\|--------------\|-------------------------------\| \| Time period: \| April 2017 - June 2019 \| \| Funding sum: \| 191.400 EUR \| \| My role: \| Post-Doc researcher \|
+|              |                        |
+|--------------|------------------------|
+| Time period: | April 2017 - June 2019 |
+| Funding sum: | 191.400 EUR            |
+| My role:     | Post-Doc researcher    |
 
 # Further research projects
 
