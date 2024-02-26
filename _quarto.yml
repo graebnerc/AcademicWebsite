@@ -1,0 +1,44 @@
+project:
+  type: website
+  pre-render: 
+  - scripts/create_bibliography.py
+
+website:
+  title: "Claudius Gräbner-Radkowitsch"
+  description: "Claudius is professor for pluralist economics and works on socio-ecological transformations, technological change, and the philosophy of economics."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: teaching
+        text: Teaching
+      - text: Research
+        menu: 
+          - text: Publications
+            href: research/publications
+          - text: Projects
+            href: research/projects
+          - text: Working papers
+            href: research/wp
+      - href: talks
+        text: Talks and presentations
+      - href: posts.qmd
+        text: Blog
+      - about.qmd
+  page-footer: 
+      left: "Claudius Gräbner-Radkowitsch, 2023-."
+      right: 
+        - icon: github
+          href: https://github.com/graebnerc/AcademicWebsite
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    toc_smooth_scroll: true
+    toc_highlight: true
+    fig-align: center
+

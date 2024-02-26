@@ -1,0 +1,43 @@
+---
+title: "About me"
+about:
+  template: jolla
+  image: img/claudius.jpeg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/ClaudiusGrabner
+    - icon: github
+      text: Github
+      href: https://github.com/graebnerc/
+    - icon: journals
+      text: ORCID
+      href: https://orcid.org/0000-0003-4065-4722
+    - icon: key
+      text: PGP Keys
+      href: data/PublicKey_3956F627.asc
+    - icon: slack
+      text: The department of Pluralist Economics
+      href: (https://www.uni-flensburg.de/en/pluralist-economics
+    - icon: key
+      text: PGP Keys
+      href: data/PublicKey_3956F627.asc
+    - icon: journals
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=dAt0-rYAAAAJ&hl=en
+    - icon: globe
+      text: Interdisciplinary Center for European Studies at the EUF
+      href: https://www.uni-flensburg.de/en/ices/about-us/people/board-of-directors
+
+---
+
+My name is Claudius Gräbner-Radkowitsch and I am interested in the functioning of globalization and technological change, and how they affect socio-economic development.
+
+My general motivation to work as an economist still comes from the time when I was working as a streetworker in Chiapas, Mexico, after completing my A-levels. Since then I want to understand better how the living standards of people all over the world can be improved in a sustainable way. This is of course a broad, idealist and intricate goal. But it keeps me motivated.
+
+The applied topics that interest me align poorly with disciplinary boundaries, and many relevant lessons can only be learned in practice. Thus, I am convinced that new insights come from academics and practitioners, and people with various disciplinary backgrounds, working collectively and cooperatively together. I try to practice this conviction in my work as best as I can.
+
+Aside from these applied topics I am also interested in the philosophy of economics. Thinking and writing about about questions such as "How do I actually derive insights from a mathematical model?" or "How do I compare a model composed of formulas with an economy composed of human beings?" helps me to put my results and work into context, and to remain open to debate with those who think very differently. Correspondingly, I am also interested in the ongoing debate about pluralism in economics, and I sometimes think and write about the conditions under which pluralism is - in my view - desirable, and what the associated challenges are.
+
+If you are also interested in such questions you might want to have a look at my research, or contact me to articulate questions, recommendations or critique.
+

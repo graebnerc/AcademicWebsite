@@ -1,0 +1,179 @@
+---
+title: "Virtual environments in Python using conda"
+description: "Explains why virtual environments are essential when working on scientific projects and how to manage them in Python using conda."
+categories: [Python] # self-defined categories
+date: 2024-01-30
+citation: 
+  url: https://claudius-graebner.com/
+# image: preview_image.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: references.bib
+---
+
+# What is a virtual environment?
+
+One can think of an virtual environment as a self-contained space that has its own Python interpreter and packages.
+If you install a new package from within the environment, the package and the dependencies are installed *only* for this environment.
+Once you leave the environment the package is not available.
+Also if you update Python or any other package within the environment, the versions outside of the envirvonment remain unchanged.
+Conversely, updates made outside the environment do not affect the packages and Python versions within the environment.
+
+When conducting a scientific project using Python, using such virtual environments makes a lot of sense.
+In fact, it is usually a good idea to create one *virtual environment* for each or your projects. 
+
+# Why using virtual environments for scientific projects
+
+At first glance this might sound stupid: 
+why would you even invest time to set up an environment that then does not 'benefit' from any updates you install outside of it?
+The main reason is stability and persistence of your code.
+Packages evolve over time and some updates require you to change your code.
+This means that old code might stop working after an update has been installed.
+For scientific projects this can be a huge pain because for you it is usually not relevant whether the study you conducted two years ago works with the Python version that is currently the state of the art. 
+What matters is that you can still replicate the study today and get the same results as you did two years ago.
+If you have used a virtual environment for your study, you just enter it now and run your code and you get the same results.
+If you didn't you might need to change the code to comply with new package and Python updates. 
+This can be terribly frustrating, so saving you from this calamity is sufficient reason to use virtual environments right from the start - especially because it is really easy.
+
+# How to create a new virtual environments for a new project
+
+There are two main approaches to create and organize virtual environments, `conda` and `venv`.
+This post focuses on `conda`. The steps needed to manage virtual environments with `venv` 
+are covered in a separate post.
+
+Assume you created a working directory and a VSC workspace.
+Before you begin, make sure `conda` and `Python` is up to date:
+
+```
+conda update conda
+conda update python
+```
+
+Now we can start setting up the virtual environment.
+The first step is to decide which Python version we want to use for our project. 
+Say we want to use Python `3.11`. Then we would use:
+
+``` 
+conda create -n my-env python=3.11 anaconda
+```
+ assuming that our environment should get the name `my-env `.
+ You will need to confirm that the Python version and all needed packages will be installed within the new environment.
+ The the environment is installed, but not yet activated. 
+ To activate it from the terminal you can write
+
+ ```
+ conda activate minveb-abm-env
+ ```
+
+ and to deactivate and to return to your base environment just do
+
+ ```
+ conda deactivate
+ ```
+
+ As indicated above, if you install packages while the environment is active the packages will be installed within this environment only. 
+ If you want to install them into the environment 'from the outside' you can do this via
+
+ ```
+ conda install -n [env-name] [package]
+ ````
+
+Without the part `-n [env-name]` the package will be installed into the currently active environment.
+If you have not activated a specific environment, this will be the base environment.
+
+Finally, we can verify whether the environment exists:
+
+```
+conda info --envs
+```
+
+Here the new environment should now appear. It is now ready to be used.
+Note that the currently active environment is marked with an asterix. 
+This should currently be the base environment. 
+So to use the new environment you still need to activate it.
+
+# Use the environment for your project
+
+One way to use the environment is to make sure it is activated whenever you do something for your project.
+A better way is to tell your development tool to use it as a default.
+In VSC, for instance, you can choose the command `Python: Select interpreter` to select your new environment.
+Note that it only appears here if you specified an interpreter for it, i.e. used the `python=x.x` part of the command above.
+Also, directly after the creation environment might not appear. 
+Do `Developer: Reload Window` first, then you should be able to see is.
+
+# Some further information
+
+Here I collect some additional information that I found useful when dealing with 
+virtual environments with `conda`:
+
+## How to delete an environment
+
+ If you want to delete an environment you do not longer need you can do this via
+
+ ```
+ conda remove -n ENVNAME -all
+ ```
+
+ but you should be careful with this.
+
+## Create environments with specified packages and package version
+
+For obvious reasons you might want to specify the particular versions of 
+the packages you use in a new environment. 
+The syntax to do so is straightforward and follows the following pattern:
+
+```
+conda create -n myenv python=3.6 scipy=0.15.0 pandas
+```
+
+This creates a new environment called 'myenv' with Python version 3.6,
+the package scipi in version 0.15.0 and the package pandas in the most
+recent version available.
+
+## What if the environment cannot be registered?
+
+In case you get a warning that the environment cannot be registered 
+because the path `.envs` is not writable either make it writable using 
+`chmod` or create the environment using admin rights, i.e. using the 
+`sudo` command.
+The latter is not recommended.
+On macOS the writing allowance might be wrong, so you need to give 
+you writing allowance:
+
+```
+sudo chown -R username /home/username/path-to-conda-folder/
+
+sudo chmod -R +x /home/username/path-to-conda-folder/
+```
+
+Adjust the directories according to the warnings that are provided it 
+you install an environment as described below.
+
+
+## How to save the environment in a `.yml` file
+
+To save the versions of all relevant packages and to recover the 
+virtual environment when needed you can save the relevant information
+in a file from which you can later re-create the environment anew.
+
+To save the current environment in a file `environment.yml` do:
+
+```
+conda env export > environment.yml
+```
+
+Across platforms you may not want to include *all* packages, but only
+those that you installed explicitly (thereby excluding platform-specific dependencies):
+
+```
+ conda env export --from-history  > environment.yml
+ ```
+
+To create a new environment from an existing file 
+`environment.yml` file simply call:
+
+```
+conda env create -f environment.yml
+```
+
+Note that the name of the new environment is determined by the
+`.yml` (first line).

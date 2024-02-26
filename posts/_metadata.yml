@@ -1,0 +1,14 @@
+# options specified here will apply to all posts in this folder
+
+# prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: true
+
+# enable banner style title blocks (see https://quarto.org/docs/authoring/title-blocks.html)
+title-block-banner: true
+
+author:
+  - name: Claudius Gräbner-Radkowitsch
+    url: https://claudius-graebner.com/
+    orcid: 0000-0003-4065-4722
+    affiliation: EUF
+    affiliation-url: https://www.uni-flensburg.de/en/pluralist-economics

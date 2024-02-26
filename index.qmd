@@ -1,0 +1,30 @@
+---
+title: "Claudius Gräbner-Radkowitsch"
+about:
+    template: trestles
+    links:
+        - text: "{{< ai orcid >}} ORCID 0000-0003-4065-4722"
+          url: https://orcid.org/0000-0003-4065-4722
+        - text: "{{< ai google-scholar >}} Google Scholar"
+          url: https://scholar.google.com/citations?user=dAt0-rYAAAAJ&hl=en
+        - text: "Department homepage (Europa-University Flensburg)"
+          url: https://www.uni-flensburg.de/en/pluralist-economics
+        - text: "ICAE (Johannes Kepler University Linz)"
+          url: https://www.jku.at/en/institute-for-comprehensive-analysis-of-the-economy/
+image: img/claudius.jpeg
+comments: false
+---
+
+## Bio
+
+My name is Claudius Gräbner-Radkowitsch and I am an economist working as a Junior Professor (W1TT) at the 
+[Europa University Flensburg (Germany)](https://www.uni-flensburg.de/en/pluralist-economics)
+and as a research associate at the 
+[Institute of Comprehensive Analysis of the Economy (ICAE)](https://www.jku.at/en/institute-for-comprehensive-analysis-of-the-economy/about-us/team/claudius-graebner/)
+of the Johannes Kepler University Linz (Austria). I am also a research fellow of the 
+[Institute for future-fit economies (ZOE)](https://zoe-institut.de/en/person/dr-claudius-grabner/)
+.
+
+My research is mainly concerned with the socio-economic effects of globalization, the determinants for international competitiveness, economic complexity, institutions and socio-economic development. Besides, I am also interested in economic methodology, in particular how economic models can be helpful in understanding real economic systems.
+
+On this homepage I provide some information and material about the research projects I am responsible for, my teaching and lecturing activities, my research, and myself.

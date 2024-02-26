@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.340">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Claudius Gräbner-Radkowitsch">
+<meta name="dcterms.date" content="2024-01-30">
+<meta name="description" content="Explains why virtual environments are essential when working on scientific projects and how to manage them in Python using conda.">
+
+<title>Claudius Gräbner-Radkowitsch - Virtual environments in Python using conda</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Claudius Gräbner-Radkowitsch</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../../research/publications" rel="" target="">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../research/projects" rel="" target="">
+ <span class="dropdown-text">Projects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../research/wp" rel="" target="">
+ <span class="dropdown-text">Working papers</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks" rel="" target="">
+ <span class="menu-text">Talks and presentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About me</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Virtual environments in Python using conda</h1>
+                  <div>
+        <div class="description">
+          Explains why virtual environments are essential when working on scientific projects and how to manage them in Python using conda.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Python</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author"><a href="https://claudius-graebner.com/">Claudius Gräbner-Radkowitsch</a> <a href="https://orcid.org/0000-0003-4065-4722" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://www.uni-flensburg.de/en/pluralist-economics">
+              EUF
+              </a>
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 30, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-a-virtual-environment" id="toc-what-is-a-virtual-environment" class="nav-link active" data-scroll-target="#what-is-a-virtual-environment">What is a virtual environment?</a></li>
+  <li><a href="#why-using-virtual-environments-for-scientific-projects" id="toc-why-using-virtual-environments-for-scientific-projects" class="nav-link" data-scroll-target="#why-using-virtual-environments-for-scientific-projects">Why using virtual environments for scientific projects</a></li>
+  <li><a href="#how-to-create-a-new-virtual-environments-for-a-new-project" id="toc-how-to-create-a-new-virtual-environments-for-a-new-project" class="nav-link" data-scroll-target="#how-to-create-a-new-virtual-environments-for-a-new-project">How to create a new virtual environments for a new project</a></li>
+  <li><a href="#use-the-environment-for-your-project" id="toc-use-the-environment-for-your-project" class="nav-link" data-scroll-target="#use-the-environment-for-your-project">Use the environment for your project</a></li>
+  <li><a href="#some-further-information" id="toc-some-further-information" class="nav-link" data-scroll-target="#some-further-information">Some further information</a>
+  <ul class="collapse">
+  <li><a href="#how-to-delete-an-environment" id="toc-how-to-delete-an-environment" class="nav-link" data-scroll-target="#how-to-delete-an-environment">How to delete an environment</a></li>
+  <li><a href="#create-environments-with-specified-packages-and-package-version" id="toc-create-environments-with-specified-packages-and-package-version" class="nav-link" data-scroll-target="#create-environments-with-specified-packages-and-package-version">Create environments with specified packages and package version</a></li>
+  <li><a href="#what-if-the-environment-cannot-be-registered" id="toc-what-if-the-environment-cannot-be-registered" class="nav-link" data-scroll-target="#what-if-the-environment-cannot-be-registered">What if the environment cannot be registered?</a></li>
+  <li><a href="#how-to-save-the-environment-in-a-.yml-file" id="toc-how-to-save-the-environment-in-a-.yml-file" class="nav-link" data-scroll-target="#how-to-save-the-environment-in-a-.yml-file">How to save the environment in a <code>.yml</code> file</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="what-is-a-virtual-environment" class="level1">
+<h1>What is a virtual environment?</h1>
+<p>One can think of an virtual environment as a self-contained space that has its own Python interpreter and packages. If you install a new package from within the environment, the package and the dependencies are installed <em>only</em> for this environment. Once you leave the environment the package is not available. Also if you update Python or any other package within the environment, the versions outside of the envirvonment remain unchanged. Conversely, updates made outside the environment do not affect the packages and Python versions within the environment.</p>
+<p>When conducting a scientific project using Python, using such virtual environments makes a lot of sense. In fact, it is usually a good idea to create one <em>virtual environment</em> for each or your projects.</p>
+</section>
+<section id="why-using-virtual-environments-for-scientific-projects" class="level1">
+<h1>Why using virtual environments for scientific projects</h1>
+<p>At first glance this might sound stupid: why would you even invest time to set up an environment that then does not ‘benefit’ from any updates you install outside of it? The main reason is stability and persistence of your code. Packages evolve over time and some updates require you to change your code. This means that old code might stop working after an update has been installed. For scientific projects this can be a huge pain because for you it is usually not relevant whether the study you conducted two years ago works with the Python version that is currently the state of the art. What matters is that you can still replicate the study today and get the same results as you did two years ago. If you have used a virtual environment for your study, you just enter it now and run your code and you get the same results. If you didn’t you might need to change the code to comply with new package and Python updates. This can be terribly frustrating, so saving you from this calamity is sufficient reason to use virtual environments right from the start - especially because it is really easy.</p>
+</section>
+<section id="how-to-create-a-new-virtual-environments-for-a-new-project" class="level1">
+<h1>How to create a new virtual environments for a new project</h1>
+<p>There are two main approaches to create and organize virtual environments, <code>conda</code> and <code>venv</code>. This post focuses on <code>conda</code>. The steps needed to manage virtual environments with <code>venv</code> are covered in a separate post.</p>
+<p>Assume you created a working directory and a VSC workspace. Before you begin, make sure <code>conda</code> and <code>Python</code> is up to date:</p>
+<pre><code>conda update conda
+conda update python</code></pre>
+<p>Now we can start setting up the virtual environment. The first step is to decide which Python version we want to use for our project. Say we want to use Python <code>3.11</code>. Then we would use:</p>
+<pre><code>conda create -n my-env python=3.11 anaconda</code></pre>
+<p>assuming that our environment should get the name <code>my-env</code>. You will need to confirm that the Python version and all needed packages will be installed within the new environment. The the environment is installed, but not yet activated. To activate it from the terminal you can write</p>
+<pre><code>conda activate minveb-abm-env</code></pre>
+<p>and to deactivate and to return to your base environment just do</p>
+<pre><code>conda deactivate</code></pre>
+<p>As indicated above, if you install packages while the environment is active the packages will be installed within this environment only. If you want to install them into the environment ‘from the outside’ you can do this via</p>
+<pre><code>conda install -n [env-name] [package]</code></pre>
+<p>Without the part <code>-n [env-name]</code> the package will be installed into the currently active environment. If you have not activated a specific environment, this will be the base environment.</p>
+<p>Finally, we can verify whether the environment exists:</p>
+<pre><code>conda info --envs</code></pre>
+<p>Here the new environment should now appear. It is now ready to be used. Note that the currently active environment is marked with an asterix. This should currently be the base environment. So to use the new environment you still need to activate it.</p>
+</section>
+<section id="use-the-environment-for-your-project" class="level1">
+<h1>Use the environment for your project</h1>
+<p>One way to use the environment is to make sure it is activated whenever you do something for your project. A better way is to tell your development tool to use it as a default. In VSC, for instance, you can choose the command <code>Python: Select interpreter</code> to select your new environment. Note that it only appears here if you specified an interpreter for it, i.e.&nbsp;used the <code>python=x.x</code> part of the command above. Also, directly after the creation environment might not appear. Do <code>Developer: Reload Window</code> first, then you should be able to see is.</p>
+</section>
+<section id="some-further-information" class="level1">
+<h1>Some further information</h1>
+<p>Here I collect some additional information that I found useful when dealing with virtual environments with <code>conda</code>:</p>
+<section id="how-to-delete-an-environment" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-delete-an-environment">How to delete an environment</h2>
+<p>If you want to delete an environment you do not longer need you can do this via</p>
+<pre><code>conda remove -n ENVNAME -all</code></pre>
+<p>but you should be careful with this.</p>
+</section>
+<section id="create-environments-with-specified-packages-and-package-version" class="level2">
+<h2 class="anchored" data-anchor-id="create-environments-with-specified-packages-and-package-version">Create environments with specified packages and package version</h2>
+<p>For obvious reasons you might want to specify the particular versions of the packages you use in a new environment. The syntax to do so is straightforward and follows the following pattern:</p>
+<pre><code>conda create -n myenv python=3.6 scipy=0.15.0 pandas</code></pre>
+<p>This creates a new environment called ‘myenv’ with Python version 3.6, the package scipi in version 0.15.0 and the package pandas in the most recent version available.</p>
+</section>
+<section id="what-if-the-environment-cannot-be-registered" class="level2">
+<h2 class="anchored" data-anchor-id="what-if-the-environment-cannot-be-registered">What if the environment cannot be registered?</h2>
+<p>In case you get a warning that the environment cannot be registered because the path <code>.envs</code> is not writable either make it writable using <code>chmod</code> or create the environment using admin rights, i.e.&nbsp;using the <code>sudo</code> command. The latter is not recommended. On macOS the writing allowance might be wrong, so you need to give you writing allowance:</p>
+<pre><code>sudo chown -R username /home/username/path-to-conda-folder/
+
+sudo chmod -R +x /home/username/path-to-conda-folder/</code></pre>
+<p>Adjust the directories according to the warnings that are provided it you install an environment as described below.</p>
+</section>
+<section id="how-to-save-the-environment-in-a-.yml-file" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-save-the-environment-in-a-.yml-file">How to save the environment in a <code>.yml</code> file</h2>
+<p>To save the versions of all relevant packages and to recover the virtual environment when needed you can save the relevant information in a file from which you can later re-create the environment anew.</p>
+<p>To save the current environment in a file <code>environment.yml</code> do:</p>
+<pre><code>conda env export &gt; environment.yml</code></pre>
+<p>Across platforms you may not want to include <em>all</em> packages, but only those that you installed explicitly (thereby excluding platform-specific dependencies):</p>
+<pre><code> conda env export --from-history  &gt; environment.yml</code></pre>
+<p>To create a new environment from an existing file <code>environment.yml</code> file simply call:</p>
+<pre><code>conda env create -f environment.yml</code></pre>
+<p>Note that the name of the new environment is determined by the <code>.yml</code> (first line).</p>
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{gräbner-radkowitsch2024,
+  author = {Gräbner-Radkowitsch, Claudius},
+  title = {Virtual Environments in {Python} Using Conda},
+  date = {2024-01-30},
+  url = {https://claudius-graebner.com/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-gräbner-radkowitsch2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Gräbner-Radkowitsch, Claudius. 2024. <span>“Virtual Environments in
+Python Using Conda.”</span> January 30, 2024. <a href="https://claudius-graebner.com/">https://claudius-graebner.com/</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Claudius Gräbner-Radkowitsch, 2023-.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/graebnerc">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

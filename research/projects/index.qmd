@@ -1,0 +1,76 @@
+---
+title: Projects
+---
+
+# Third-party funded projects
+
+These are the 'official' projects.
+
+## Current projects
+
+### The green transition and economic polarization in Europe: a multi-level assessment with Germany and Poland as case studies
+
+*Funded by the German Science Foundation (DFG) and the Polish National Science Center (NCN)*
+
+[Projekt homepage](https://green-transition.project.uj.edu.pl/en_GB/start)
+
+|               |                               |
+|---------------|-------------------------------|
+| Time period:  | October 2023 - September 2026 |
+| Funding sum:  | 295.000 EUR (German part)     |
+| My role:      | Principal investigator        |
+
+### Spatial Competition and Economic Policies (SPACE): Discourses, Institutions and Everyday Practices
+
+*Funded by the Austrian National Science Fund (FWF)*
+
+[Projekt homepage](https://spatial-competition.com/)
+
+\|--------------\|-------------------------------------\| \| Time period: \| June 2019 - April 2024 \| \| Funding sum: \| 2.5 Mio EUR \| \| My role: \| One of five principal investigators \|
+
+## Completed projects
+
+### International competitiveness: a multi-level assessment of Austria and other European countries
+
+*Funded by the Austrian National Bank (OeNB)*
+
+[Projekt homepage](https://www.jku.at/institut-fuer-die-gesamtanalyse-der-wirtschaft/projekte/laufende-forschungsprojekte/internationale-wettbewerbsfaehigkeit/)
+
+\|--------------\|-------------------------------\| \| Time period: \| January 2020 - August 2021 \| \| Funding sum: \| 107.000 EUR \| \| My role: \| Principal investigator \|
+
+### Country capabilities, product complexity, and finance in the EU: An AB-SFC multi-country model for policy analysis
+
+*Funded by the National Institute of Economic and Social Research (UK)*
+
+[Projekt homepage](https://www.rebuildingmacroeconomics.ac.uk/country-capabilities)
+
+\|--------------\|-------------------------------\| \| Time period: \| May 2019 - October 2020 \| \| Funding sum: \| 80.000 EUR \| \| My role: \| Principal investigator \|
+
+### Political and economic polarization in Europe
+
+*Funded by the Friedrich-EbertStiftung*
+
+[Projekt homepage](https://www.fes.de/wirtschaftliche-polarisierung-in-europa)
+
+\|--------------\|-------------------------------\| \| Time period: \| January 2019 - June 2019 \| \| Funding sum: \| 10.000 EUR \| \| My role: \| Post-Doc researcher
+
+### The Political Economy of Competitiveness and Trade-Openness: An analysis of the dynamics of global economic integration
+
+*Funded by the Austrian National Bank (OeNB)*
+
+[Projekt homepage](https://www.jku.at/institut-fuer-die-gesamtanalyse-der-wirtschaft/projekte/abgeschlossene-forschungsprojekte/wettbewerbsfaehigkeit-handelsoffenheit/)
+
+\|--------------\|-------------------------------\| \| Time period: \| April 2017 - June 2019 \| \| Funding sum: \| 191.400 EUR \| \| My role: \| Post-Doc researcher \|
+
+# Further research projects
+
+Not everything gets funding, but I want to work on it nevertheless;)
+
+Thus, I am also working on the following topics:
+
+-   Competition in Academia and its social and epistemological implications
+-   The costs of competition in our academic system
+-   The state of plurality in economics
+-   The epistemological challenges of pluralism and how to address them
+-   The relationship between pluralism and decoloniality, especially in times of socio-economic polarization
+-   How to determine the realisticness of economic models

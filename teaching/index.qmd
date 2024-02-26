@@ -1,0 +1,50 @@
+---
+title: "Teaching"
+---
+
+Here I collect material for my courses. I try to publish as much of the material online after the course is completed. For more information about the teaching portfolio of my department at the Europa-University Flensburg, see [here](https://www.uni-flensburg.de/en/pluralist-economics/teaching). Please get in touch if you have questions or suggestions.
+
+# General courses
+
+| Title                                                             | Kind                                                   | Place                                                 | Date                    |
+|------------------|------------------|------------------|------------------|
+| An introduction to agent-based modeling in Python                 | Web-based course (scripts, videos (German), and tasks) | [Online](abm-de)                                      | Always open             |
+| Macroeconomic models - a multi-paradigmatic introduction (German) | Web-based course (Scripts and videos in German)        | [Online](https://graebnerc.github.io/macroeconomics/) | Always open             |
+| Economics Complexity: Theory and computational methods            | Summer School Course (1-semester-equivalent)           | Exploring Economics Summer Academy                    | August 2017, 2018, 2019 |
+| An introduction to Python and computational game theory           | Mini course (3 days)                                   | University of Szeged                                  | April 2018              |
+
+: {.striped .hover}
+
+# Undergraduate courses
+
+| Title                                                                 | University           | Date                         |
+|-------------------------------------|------------------|------------------|
+| Governing with numbers - the political economy of economic indicators | University of Erfurt | Winter term 2018/19          |
+| Agent-based modeling and Computional Social Sciences                  | University of Erfurt | Summer term 2018             |
+| Exercises in Game Theory                                              | University of Bremen | Summer term 2014, 2015, 2016 |
+| Computational Economics in R                                          | University of Bremen | Winter term 2015/16          |
+| Innovation and Information Economics                                  | University of Bremen | Winter term 2014/15          |
+| Exercises in evolutionary and institutional economics                 | University of Bremen | Winter term 2014/15, 2015/16 |
+|                                                                       |                      |                              |
+
+: {.striped .hover}
+
+# Graduate and PhD level courses
+
+| Title                                                                              | University                   | Date                                                                                                                                        |
+|---------------------------|----------------|------------------------------|
+| Data Science                                                                       | Europa University Flensburg  | [Spring semester 2022](https://datascience-euf-spring22.netlify.app/), [Fall semester 2022/23](https://datascience-euf-fall22.netlify.app/) |
+| Environmental Economics                                                            | Europa University Flensburg  | Fall semester 2022/23                                                                                                                       |
+| Political Economy (dt.)                                                            | Europa University Flensburg  | Fall semester 2021/22, 2022/23                                                                                                              |
+| Advanced Macroeconomics                                                            | University of Duisburg-Essen | Winter term 2020/21                                                                                                                         |
+| Economic history and economic theory                                               | University of Duisburg-Essen | Summer term 2020, 2021                                                                                                                      |
+| Philosophy of Science and Socioeconomic Research Methods                           | University of Duisburg-Essen | Winter term 2019/20,20/21, 21/22 Summer term 2020                                                                                           |
+| Agent-based modeling in economics                                                  | Cusanus University           | Winter term 2019/20                                                                                                                         |
+| Globalization and Development                                                      | University of Duisburg-Essen | Summer term 2019                                                                                                                            |
+| Economic Methodology and Agent-based Modelling in Python                           | University of Siegen         | Winter term 2018/19                                                                                                                         |
+| Individual and collective decision-making: lessons from game and complexity theory | University of Szeged         | Winter term 2017/18                                                                                                                         |
+| Evolutionary and institutional economics                                           | University of Bremen         | Summer term 2015                                                                                                                            |
+| Applications of institutional and evolutionary economics                           | University of Bremen         | Winter term 2014/15                                                                                                                         |
+
+: {.striped .hover}
+

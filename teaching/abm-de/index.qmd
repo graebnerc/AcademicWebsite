@@ -1,0 +1,5 @@
+---
+title: "Eine Einführung in Agentenbasierte Modellierung mit Python"
+---
+
+https://claudius-graebner.com/teaching/introduction-abm-deutsch.html

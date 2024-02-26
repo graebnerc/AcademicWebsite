@@ -1,0 +1,37 @@
+---
+title: "The Political Economy of Economic Complexity: Models, Data and Policy"
+---
+
+This page contains all information and material for the workshop 
+"The Political Economy of Economic Complexity: Models, Data and Policy" 
+taught during the "Pre-Conference for Young Scholars". 
+Try to read into the core readings in advance, the other readings are optional.
+
+# General information about the course
+
+[Tentative course outline](pdf/EAEPE19-Complexity/EconComplexity_Outline.pdf)
+
+[Zip file with course readings](pdf/EAEPE19-Complexity/readings.zip)
+
+# Lecture slides
+
+[Section 1: Introduction & motivation: drivers of socio-economic development](pdf/EAEPE19-Complexity/EC_01_Introduction.pdf)
+
+[Section 2: Introducing the Economic Complexity Index (ECI)](pdf/EAEPE19-Complexity/EC_02_Intro-ECI.pdf)
+
+[Section 3: Practical exercises and assessment of the complexity approach](pdf/EAEPE19-Complexity/EC_03_Empirics-Practice.pdf)
+
+[Section 4: Applications & discussion](pdf/EAEPE19-Complexity/EC_04_Applications-Discussion.pdf)
+
+# Data sets for the practical exercises
+
+[Data on GDP (Source: World Bank)](pdf/EAEPE19-Complexity/gdp_data.csv)
+
+# Useful links
+
+[The Atlas of Economic Complexity](http://atlas.cid.harvard.edu/)
+
+[The Observatory of Economic Complexity](https://oec.world/en)
+
+
+*Some material is password protected for copyright reasons. The password is available upon request.*

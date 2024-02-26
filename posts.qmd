@@ -1,0 +1,13 @@
+---
+title: "A blog about computational aspects of economic research"
+listing: 
+  contents: posts # all Quarto docs in the `posts` directory will be included on your listing page
+  type: grid # or `default` or `table`; each type has its own set of yaml options to include
+  sort: "date desc" # can also sort on more than one field
+  categories: true # allows you to sort posts by assigned categories
+---
+
+This is my blog. I use it mainly to post some simple receipts for computational
+(and sometimes intellectual) challenges - some smaller, some bigger - that I 
+encounter in my daily life.
+I hope some of these comments are useful for others as well.

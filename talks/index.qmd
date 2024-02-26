@@ -1,0 +1,98 @@
+---
+title: "Talks and presentations"
+---
+
+# Academic keynotes and invited talks
+<!-- keynotes -->
+
+## 2024
+
+- 24.01.2024: [Agent-based modelling and complexity economics](pdf/24-01-19_ComplexityPluralism.pdf) (Agentenbasiertes Modellieren und Komplexitätsökonomik), Public lecture (University of Siegen, language: German).
+
+- 19.01.2024: [Pluralism and Complexity: an alternative to the neoclassical equilibrium approach?](pdf/24-01-24_ComplexityABM.pdf) (Pluralismus und Komplexität: Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?), Public lecture (University of Hamburg, language: German).
+
+## 2023
+
+- 23.01.2023: [Agent-based modelling and complexity economics](pdf/23-01-26_ComplexityABM.pdf) (Agentenbasiertes Modellieren und Komplexitätsökonomik), Public lecture (University of Siegen, language: German).
+
+## 2022
+
+- 29.09.202: [Applied Economic Methodology](pdf/22-09-29_AppliedMethodology.pdf), Keynote given at the Second Philosophy \& Economics Conference (University of Vienna, language: English).
+
+- 06.09.2022: Automation and Inequalities: The Merits of a Pluralist Research Program in the Context of Automation, Guest Lecture given at the EAEPE Pre-Conference for Young Scholars (Parthenope University of Naples, language: English).
+
+- 02.05.2022: Does the truth lie somewhere in between? A pluralist perspective on global inequality (Liegt die Wahrheit irgendwo dazwischen? Eine plurale Perspektive auf globale Ungleichheit), Public lecture (University of Tübingen, language: German).
+
+- 19.12.2022: [The socioeconomic dimension of sufficiency: possible contributions from pluralist economics](pdf/22-12-19_Suffizienz.pdf) (Die sozioökonomischen Dimension von Suffizienz: Mögliche Beiträge der Pluralen Ökonomik), Invited presentation at the symposium on the socio-economic relevance of sufficiency (Europa-University Flensburg, language: German).
+
+## 2021
+
+- 29.05.2021: Challenges for pluralism in economics (Herausforderungen einer pluralen Ökonomik), Keynote (Spring school of the German Network for Pluralism in Economics, language: German).
+
+- 17.11.2021: Complexity Economics: an alternative to the neoclassical equilibrium approach? (Komplexitätsökonomik - Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?), Invited lecture (Zeppelin University, language: German).
+
+- 03.12.2021: Complexity Economics - A short introduction (Komplexitätsökonomik - Eine kurze Einführung), Invited lecture (FU Berlin, language: German).
+
+- 16.12.2021: Pluralism in Economics \& beyond - How a Plurality of Paradigms Helps Understanding Socio-Ecological Challenges, Invited Talk during the Sustainability and Energy Lectures (Europa-University Flensburg, language: English).
+
+- 19.10.2021: What is pluralist economics? (Was ist Plurale Ökonomik?), Inaugural speech to the public lecture series on pluralism in economics (Christian-Albrechts-University, language: German). Available on Youtube.
+
+- 09.06.2021 (together with Birte Strunk): Why we need pluralist economics (Warum braucht es Plurale Ökonomik?), Keynote (University of Vienna, language: German).
+
+## 2019
+
+- 02.09.2019: Pluralism, Complexity and the Effective Triangulation of Methods, Keynote (NEEC Summer Schoool on Complexity Economics, Behavioral Economics and Data Science at the University of Bochum, language: English).
+
+- 11.-12.09.2019: [The Political Economy of Economic Complexity: Models, Data and Policy](2019EAEPE-Complexity.qmd), Short Course at the EAEPE Pre-Conference for Young Scholars (Warsaw University of Economics, language: English).
+
+<!-- /keynotes -->
+<!---
+Here I collect material used in smaller courses or invited talks.
+
+24.01.2024: [Agent-based modelling and complexity economics](pdf/24-01-19_ComplexityPluralism.pdf) (*Agentenbasiertes Modellieren und Komplexitätsökonomik*), public lecture given at the University of Siegen (in German).
+
+19.01.2024: [Pluralism and Complexity: an alternative to the neoclassical equilibrium approach?](pdf/24-01-24_ComplexityABM.pdf) (*Pluralismus & Komplexität: Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?*), public lecture given at the University of Hamburg (in German).
+
+23.01.2023: [Agent-based modelling and complexity economics](pdf/23-01-26_ComplexityABM.pdf) (*Agentenbasiertes Modellieren und Komplexitätsökonomik*), public lecture given at the University of Siegen (in German).
+
+19.12.2022: [The socioeconomic dimension of sufficiency: possible contributions from pluralist economics](pdf/22-12-19_Suffizienz.pdf)) (*Die sozioökonomischen Dimension von Suffizienz: Mögliche Beiträge der Pluralen Ökonomik*), presentation at the symposium on the socio-economic relevance of sufficiency, Flensburg (in German).
+
+29.09.2022: [Applied Economic Methodology](pdf/22-09-29_AppliedMethodology.pdf), keynote given at the Second Philosophy & Economics Conference in Vienna.
+
+06.09.2022: [Automation and inequalities: The merits of a pluralist research program in the context of automation](), a guest lecture given at the EAEPE Pre-Conference for Young Scholars.
+
+02.05.2022: [Does the truth lie somewhere in between? A pluralist perspective on global inequality]() (*Liegt die Wahrheit irgendwo dazwischen? Eine plurale Perspektive auf globale Ungleichheit*), public lecture given at the University of Tübingen during the public lecture series "Economic Crises and the Crisis of Economics" (organized by the group Rethinking Economics Tübingen).
+
+16.12.2021: English guest lecture "Pluralism in economics & beyond - How a plurality of paradigms helps understanding socio-ecological challenges" given at the Europa-University Flensburg during the Sustainability and Energy Lectures.
+
+03.12.2021: German keynote "Komplexitätsökonomik - Eine kurze Einführung" given at the FU Berlin at the invitation of the group Kritische Wirtschaftswissenschaftler\*innen.
+
+17.11.2021: German Keynote "Komplexitätsökonomik - Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?" given at the Zeppelin University at the invitation of the group EconoMix.
+
+19.10.2021: German Keynote "Was ist Plurale Ökonomik?", given as a short inaugural speech to the public lecture seriesl of the initiative Rethinking Economics Kiel at the Christian-Albrechts-University of Kiel. \[Available on Youtube\]
+
+09.06.2021: German Keynote "Warum braucht es Plurale Ökonomik?", given together with Birte Strunk for the Gesellschaft für Plurale Ökonomik Wien.
+
+29.05.2021: German Workshop "Challenges for pluralism in economics"/"Herausforderungen einer pluralen Ökonomik", given during the spring school of the German Network for Pluralism in Economics
+
+20.-25.01.2020: Seminar "Agentenbasierte Modellierung in der Ökonomik" an der Cusanus Hochschule
+
+11.-12.09.2019: Short course on 'The Political Economy of Economic Complexity: Models, Data and Policy', given at the EAEPE Pre-Conference for Young Scholars
+
+02.09.2019: Keynote 'Pluralism, complexity and the effective triangulation of methods', given at the NEEC Summer Schoool on Complexity Economics, Behavioral Economics and Data Science
+
+09.-16.08.2019: Course on 'Complexity Economics: Theory and Computational Methods', given at the Exploring Economics Summer Academy 2019
+--->
+
+# Podcasts and interviews
+<!-- podcasts -->
+
+## 2023
+
+- 02.12.2023: Pluralist Economics And Improving The Science Of Economics, in: _Jack Roycroft-Sherry's Science Podcast_ (by Roycroft-Sherry J.; language: English): [Link](https://www.youtube.com/watch?v=LclfJxXoKwU).
+
+## 2022
+
+- 27.05.2022: Agent-Based Modelling, in: _Podcast In der Wirtschaft_ (by Cremer J., Middelanis M.; language: German): [Link](https://inderwirtschaft.home.blog/2022/05/27/folge-46-claudius-grabner-radkowitsch/).
+
+<!-- /podcasts -->
