@@ -7,6 +7,8 @@ title: "Talks and presentations"
 
 ## 2024
 
+- 22.02.2024: [Degrowth: Historical origins, the diversity of the movement and current controversies](pdf/24-02-22_Degrowth.pdf) (Degrowth: Historische Ursprünge, die Vielfalt der Bewegung und aktuelle Kontroversen), Public lecture (Heinrich Böll Foundation, language: German).
+
 - 24.01.2024: [Agent-based modelling and complexity economics](pdf/24-01-19_ComplexityPluralism.pdf) (Agentenbasiertes Modellieren und Komplexitätsökonomik), Public lecture (University of Siegen, language: German).
 
 - 19.01.2024: [Pluralism and Complexity: an alternative to the neoclassical equilibrium approach?](pdf/24-01-24_ComplexityABM.pdf) (Pluralismus und Komplexität: Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?), Public lecture (University of Hamburg, language: German).
