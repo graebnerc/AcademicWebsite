@@ -13,7 +13,7 @@ def fix_strings(string):
     Parameters
     ----------
     string : str
-        The string to be modified
+        The string to be modified.
 
     Returns
     -------
