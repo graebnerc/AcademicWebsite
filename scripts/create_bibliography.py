@@ -155,6 +155,10 @@ def render_book(entry):
         editors = format_author_names(entry["editor"])
     except KeyError:
         editors = None
+    try:
+        url = entry["url"]
+    except KeyError:
+        url = None
    
     title = fix_strings(entry.get("title"))
     address = fix_strings(entry.get("address"))
@@ -162,13 +166,16 @@ def render_book(entry):
     year = entry.get("year")
 
     # Further formatting:
-    md_line = f" ({year}). _{title}_. {address}: {publisher}."
+    md_line = f" ({year}). _{title}_. {address}: {publisher}"
     if authors:
         md_line = f"{authors}" + md_line
     elif editors:
          md_line = f"{editors} (Eds.)" + md_line
     else:
         raise ValueError(f"No author or editor for entry {entry['ID']}")
+    
+    if url:
+        md_line += f". [Available online]({url})"
     
     return md_line + "."
 
@@ -192,12 +199,14 @@ def render_chapter(entry):
     editors = format_author_names(entry["editor"])
     title = fix_strings(entry.get("title"))
     booktitle = fix_strings(entry.get("booktitle"))
-    pages = entry["pages"]
     address = fix_strings(entry["address"])
     publisher = fix_strings(entry.get("publisher"))
     year = entry["year"]
     
-    md_line = f"{authors} ({year}). {title}, in: {editors} (Eds.): _{booktitle}_. {address}: {publisher}, pp. {pages}"
+    md_line = f"{authors} ({year}). {title}, in: {editors} (Eds.): _{booktitle}_. {address}: {publisher}"
+    if entry.get("pages"):
+        pages = entry["pages"]
+        md_line += f", pp. {pages}" 
     return md_line + "."
 
 #%%

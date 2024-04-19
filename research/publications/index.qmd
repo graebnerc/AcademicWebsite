@@ -5,11 +5,15 @@ title: Publications
 # Peer-reviewed academic publications
 <!-- references -->
 
+## 2024
+
+- Glassmann U., **Gräbner-Radkowitsch C.** (Eds.) (2024). _The Political Economy of Italy and the Center-Periphery Perspective on Europe_. Marburg: Metropolis. [Available online](https://www.metropolis-verlag.de/dl/OpenAccess/1560.pdf;jsessionid=1F0FC253342799BE437CBD7864490C47).
+
+- **Gräbner-Radkowitsch C.**, Kapeller J. (2024). Development Models in the EU: Opportunities and Challenges, in: Glassmann U., **Gräbner-Radkowitsch C.** (Eds.): _The Political Economy of Italy and the Center-Periphery Perspective on Europe_. Marburg: Metropolis, pp. 49--79.
+
 ## 2023
 
 - **Gräbner-Radkowitsch C.**, Hager T., Hornykewycz A. (2023). Competing for Sustainability? An Institutionalist Analysis of the New Development Model of the European Union, _Journal of Economic Issues_, **57**(2): 676--683. doi: [10.1080/00213624.2023.2203637](https://doi.org/10.1080/00213624.2023.2203637)
-
-- **Gräbner-Radkowitsch C.**, Strunk B. (2023). Degrowth and the Global South: The Twin Problem of Global Dependencies, _Ecological Economics_, **213**: 107946. doi: [10.1016/j.ecolecon.2023.107946](https://doi.org/10.1016/j.ecolecon.2023.107946)
 
 - **Gräbner-Radkowitsch C.**, Strunk B. (2023). Degrowth and the Global South? How Institutionalism Can Complement a Timely Discourse on Ecologically Sustainable Development in an Unequal World, _Journal of Economic Issues_, **57**(2): 476--483. doi: [10.1080/00213624.2023.2201640](https://doi.org/10.1080/00213624.2023.2201640)
 
@@ -57,13 +61,13 @@ title: Publications
 
 - Kapeller J., **Gräbner C.**, Heimberger P. (2019). Economic Polarisation in Europe: Causes and Policy Options, _wiiw Research Report_, **440**.
 
-- Kapeller J., **Gräbner C.**, Heimberger P. (2019). _Wirtschaftliche Polarisierung in Europa_. Berlin: Friedrich-Ebert-Stiftung..
+- Kapeller J., **Gräbner C.**, Heimberger P. (2019). _Wirtschaftliche Polarisierung in Europa_. Berlin: Friedrich-Ebert-Stiftung. [Available online](https://www.fes.de/wirtschaftliche-polarisierung-in-europa).
 
 ## 2018
 
 - **Gräbner C.**, Heinrich T., Kudic M., Vermeulen B. (2018). The Dynamics of and on Networks: An Introduction, _International Journal of Computational Economics and Econometrics_, **8**(3/4): 229--241.
 
-- **Gräbner C.** (2018). Formal Approaches to Socio-economic Analysis\textemdashPast and Perspectives, _Forum for Social Economics_, **47**(1): 32--63. doi: [10.1080/07360932.2015.1042491](https://doi.org/10.1080/07360932.2015.1042491)
+- **Gräbner C.** (2018). Formal Approaches to Socio-economic Analysis---Past and Perspectives, _Forum for Social Economics_, **47**(1): 32--63. doi: [10.1080/07360932.2015.1042491](https://doi.org/10.1080/07360932.2015.1042491)
 
 - **Gräbner C.** (2018). How to Relate Models to Reality? An Epistemological Framework for the Validation and Verification of Computational Models, _Journal of Artificial Societies and Simulation_, **21**(3). doi: [10.18564/jasss.3772](https://doi.org/10.18564/jasss.3772)
 
@@ -87,9 +91,9 @@ title: Publications
 
 ## 2016
 
-- **Gräbner C.** (2016). Agent-Based Computational Models\textendash a Formal Heuristic for Institutionalist Pattern Modelling?, _Journal of Institutional Economics_, **12**(1): 241--261. doi: [10.1017/s1744137415000193](https://doi.org/10.1017/s1744137415000193)
+- **Gräbner C.** (2016). Agent-Based Computational Models-- a Formal Heuristic for Institutionalist Pattern Modelling?, _Journal of Institutional Economics_, **12**(1): 241--261. doi: [10.1017/s1744137415000193](https://doi.org/10.1017/s1744137415000193)
 
-- **Gräbner C.**, Heinrich T., Schwardt H. (Eds.) (2016). _Policy Implications of Recent Advances in Evolutionary and Institutional Economics_. New York: Routledge..
+- **Gräbner C.**, Heinrich T., Schwardt H. (Eds.) (2016). _Policy Implications of Recent Advances in Evolutionary and Institutional Economics_. New York: Routledge.
 
 - Pereira B., Henderson H., Lipari F., Furtado B., Bale C., Gentile J., **Gräbner C.** (2016). Errata in ``The Political Economy of the Kuznets Curve'', _Review of Development Economics_, **20**(4): 817--819. doi: [10.1111/rode.12285](https://doi.org/10.1111/rode.12285)
 
@@ -105,6 +109,10 @@ title: Publications
 
 <!-- nonacademicpubs -->
 
+## 2024
+
+- **Gräbner-Radkowitsch C.**, Strunk B. (2024). Quelle Place Pour Le Sud Global Dans La D\'ecroissance?, in: _The Conversation_, July: [Link](https://theconversation.com/quelle-place-pour-le-sud-global-dans-la-decroissance-225209).
+
 ## 2023
 
 - **Gräbner-Radkowitsch C.**, Strunk B. (2023). Degrowth and the Global South: Remarks on the Twin Problem of Structural Interdependencies, in: _Developing Economics_, June: [Link](https://developingeconomics.org/2023/11/06/degrowth-and-the-global-south-remarks-on-the-twin-problem-of-structural-interdependencies/).
@@ -113,11 +121,15 @@ title: Publications
 
 ## 2022
 
-- **Gräbner-Radkowitsch C.**, Lage J., Wiese F. (2022). Zur Ökonomischen Bedeutung von Suffizienz, in: _Makronom \textendash Online Magazin für Wirtschaftspolitik_, June: [Link](https://makronom.de/zur-oekonomischen-bedeutung-von-suffizienz-42099).
+- **Gräbner-Radkowitsch C.**, Lage J., Wiese F. (2022). Zur Ökonomischen Bedeutung von Suffizienz, in: _Makronom -- Online Magazin für Wirtschaftspolitik_, June: [Link](https://makronom.de/zur-oekonomischen-bedeutung-von-suffizienz-42099).
 
 ## 2021
 
-- **Gräbner-Radkowitsch C.**, Strunk B. (2021). Pluralism in Economics \textendash Its Critiques and Their Lessons, in: _Developing Economics_, March: [Link](https://developingeconomics.org/2021/02/03/pluralism-in-economics-its-critiques-and-their-lessons/).
+- Altreiter C., Rogojanu A., **Gräbner C.**, Pühringer S., Wolfmayr G. (2021). 20 Jahre Gute Absichten in Der Wissenschaftspolitik, in: _Die Presse_, August: [Link](https://www.diepresse.com/6024122/20-jahre-gute-absichten-in-der-wissenschaftspolitik).
+
+- Altreiter C., Rogojanu A., **Gräbner C.**, Pühringer S., Wolfmayr G. (2021). Befristete Uni-Stellen: Drei Fehlschlüsse Mit Gravierenden Folgen, in: _Der Standard_, July: [Link](https://www.derstandard.at/story/2000128392310/befristete-uni-stellen-drei-fehlschluesse-mit-gravierenden-folgen).
+
+- **Gräbner-Radkowitsch C.**, Strunk B. (2021). Pluralism in Economics -- Its Critiques and Their Lessons, in: _Developing Economics_, March: [Link](https://developingeconomics.org/2021/02/03/pluralism-in-economics-its-critiques-and-their-lessons/).
 
 - **Gräbner-Radkowitsch C.**, Hafele J. (2021). What Are the Reasons for the Lack of Overall Convergence in the EU? A Structuralist View, in: _The Rebuilding Macroeconomics Blog_, August: [Link](https://www.rebuildingmacroeconomics.ac.uk/post/what-are-the-reasons-for-the-lack-of-overall-convergence-in-the-eu-a-structuralist-view).
 
@@ -125,18 +137,18 @@ title: Publications
 
 ## 2020
 
-- **Gräbner C.**, Strunk B. (2020). Kritik an Der Pluralen Ökonomik \textendash Was Ist Dran Und Warum Ist Das Wichtig?, in: _Oekonomenstimme_, November: [Link](https://www.oekonomenstimme.org/artikel/2020/11/kritik-an-der-pluralen-oekonomik--was-ist-dran-und-warum-ist-das-wichtig/).
+- **Gräbner C.**, Strunk B. (2020). Kritik an Der Pluralen Ökonomik -- Was Ist Dran Und Warum Ist Das Wichtig?, in: _Oekonomenstimme_, November: [Link](https://www.oekonomenstimme.org/artikel/2020/11/kritik-an-der-pluralen-oekonomik--was-ist-dran-und-warum-ist-das-wichtig/).
 
-- Heimberger P., **Gräbner C.**, Kapeller J., Schütz B. (2020). Die Vermessung Der Globalisierung, in: _Makronom \textendash Online Magazin für Wirtschaftspolitik_, January: [Link](https://makronom.de/oekonomische-offenheit-die-vermessung-der-globalisierung-37176).
+- Heimberger P., **Gräbner C.**, Kapeller J., Schütz B. (2020). Die Vermessung Der Globalisierung, in: _Makronom -- Online Magazin für Wirtschaftspolitik_, January: [Link](https://makronom.de/oekonomische-offenheit-die-vermessung-der-globalisierung-37176).
 
 ## 2019
 
-- **Gräbner C.**, Heimberger P., Kapeller J., Schütz B. (2019). Eine Strategie Gegen Die Ökonomische Polarisierung Europas, in: _Makronom \textendash Online Magazin für Wirtschaftspolitik_, September: [Link](https://makronom.de/eine-strategie-gegen-die-oekonomische-polarisierung-europas-32115).
+- **Gräbner C.**, Heimberger P., Kapeller J., Schütz B. (2019). Eine Strategie Gegen Die Ökonomische Polarisierung Europas, in: _Makronom -- Online Magazin für Wirtschaftspolitik_, September: [Link](https://makronom.de/eine-strategie-gegen-die-oekonomische-polarisierung-europas-32115).
 
 - **Gräbner C.** (2019). Why Europe Is Drifting Apart and What to Do about It, in: _The Rebuilding Macroeconomics Blog_, April: [Link](https://www.rebuildingmacroeconomics.ac.uk/europe-drifting-apart/).
 
 ## 2018
 
-- Heimberger P., **Gräbner C.**, Kapeller J., Schütz B. (2018). Eine Strategie Gegen Die Ökonomische Polarisierung Europas, in: _Makronom \textendash Online Magazin für Wirtschaftspolitik_, March: [Link](https://makronom.de/polarisierung-konvergenz-warum-europa-trotz-aufschwung-oekonomisch-weiter-auseinander-driftet-25782).
+- Heimberger P., **Gräbner C.**, Kapeller J., Schütz B. (2018). Eine Strategie Gegen Die Ökonomische Polarisierung Europas, in: _Makronom -- Online Magazin für Wirtschaftspolitik_, March: [Link](https://makronom.de/polarisierung-konvergenz-warum-europa-trotz-aufschwung-oekonomisch-weiter-auseinander-driftet-25782).
 
 <!-- /nonacademicpubs -->
