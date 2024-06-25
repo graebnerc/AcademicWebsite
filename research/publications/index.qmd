@@ -11,7 +11,11 @@ title: Publications
 
 - **Gräbner-Radkowitsch C.**, Kapeller J. (2024). Development Models in the EU: Opportunities and Challenges, in: Glassmann U., **Gräbner-Radkowitsch C.** (Eds.): _The Political Economy of Italy and the Center-Periphery Perspective on Europe_. Marburg: Metropolis, pp. 49--79.
 
+- Kapeller J., **Gräbner-Radkowitsch C.**, Hornykewycz A. (2024). Corporate power and global value chains: current approaches for conceptualizing the power of multinationals, _Review of Evolutionary Political Economy_. doi: [10.1007/s43253-024-00121-5](https://doi.org/10.1007/s43253-024-00121-5)
+
 ## 2023
+
+- **Gräbner-Radkowitsch C.**, Strunk B. (2023). Degrowth and the Global South: The Twin Problem of Global Dependencies, _Ecological Economics_, **213**: 107946. doi: [10.1016/j.ecolecon.2023.107946](https://doi.org/10.1016/j.ecolecon.2023.107946)
 
 - **Gräbner-Radkowitsch C.**, Hager T., Hornykewycz A. (2023). Competing for Sustainability? An Institutionalist Analysis of the New Development Model of the European Union, _Journal of Economic Issues_, **57**(2): 676--683. doi: [10.1080/00213624.2023.2203637](https://doi.org/10.1080/00213624.2023.2203637)
 
@@ -32,6 +36,8 @@ title: Publications
 ## 2021
 
 - Aistleitner M., **Gräbner C.**, Hornykewycz A. (2021). Theory and Empirics of Capability Accumulation: Implications for Macroeconomic Modelling, _Research Policy_, **50**(6): 104258. doi: [10.1016/j.respol.2021.104258](https://doi.org/10.1016/j.respol.2021.104258)
+
+- Cordes C., Elsner W., Graebner C., Heinrich T., Henkel J., Schwardt H., Schwesinger G., Su T. (2021). The Collapse of Cooperation: The Endogeneity of Institutional Break-up and Its Asymmetry with Emergence, _Journal of Evolutionary Economics_, **31**(4): 1291--1315. doi: [10.1007/s00191-021-00739-2](https://doi.org/10.1007/s00191-021-00739-2)
 
 - **Gräbner C.**, Heimberger P., Kapeller J., Springholz F. (2021). Understanding Economic Openness: A Review of Existing Measures, _Review of World Economics_, **157**(1): 87--120. doi: [10.1007/s10290-020-00391-1](https://doi.org/10.1007/s10290-020-00391-1)
 
