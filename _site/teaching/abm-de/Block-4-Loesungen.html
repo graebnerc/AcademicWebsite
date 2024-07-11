@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Claudius Gräbner-Radkowitsch - Eine Einführung in Agentenbasierte Modellierung mit Python</title>
+<title>Claudius Gräbner-Radkowitsch - Mögliche Lösungen zu den Aufgaben aus Block 4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,6 +59,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -135,19 +137,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#block-1-allgemeine-einführung" id="toc-block-1-allgemeine-einführung" class="nav-link active" data-scroll-target="#block-1-allgemeine-einführung">Block 1: Allgemeine Einführung</a></li>
-  <li><a href="#block-2-objektorientierten-programmierung" id="toc-block-2-objektorientierten-programmierung" class="nav-link" data-scroll-target="#block-2-objektorientierten-programmierung">Block 2: Objektorientierten Programmierung</a></li>
-  <li><a href="#block-3-matrizen-datenmanagement-und-visualisierung" id="toc-block-3-matrizen-datenmanagement-und-visualisierung" class="nav-link" data-scroll-target="#block-3-matrizen-datenmanagement-und-visualisierung">Block 3: Matrizen, Datenmanagement und Visualisierung</a></li>
-  <li><a href="#block-4-ein-agentenbasiertes-technologiewahlmodell" id="toc-block-4-ein-agentenbasiertes-technologiewahlmodell" class="nav-link" data-scroll-target="#block-4-ein-agentenbasiertes-technologiewahlmodell">Block 4: Ein agentenbasiertes Technologiewahlmodell</a></li>
+  <li><a href="#erweiterung-des-arthur-modells-i" id="toc-erweiterung-des-arthur-modells-i" class="nav-link active" data-scroll-target="#erweiterung-des-arthur-modells-i">Erweiterung des Arthur Modells I</a>
+  <ul class="collapse">
+  <li><a href="#hinweise-zur-lösung" id="toc-hinweise-zur-lösung" class="nav-link" data-scroll-target="#hinweise-zur-lösung">Hinweise zur Lösung</a></li>
+  </ul></li>
+  <li><a href="#erweiterung-des-arthur-modells-ii" id="toc-erweiterung-des-arthur-modells-ii" class="nav-link" data-scroll-target="#erweiterung-des-arthur-modells-ii">Erweiterung des Arthur Modells II</a>
+  <ul class="collapse">
+  <li><a href="#hinweise-zur-lösung-1" id="toc-hinweise-zur-lösung-1" class="nav-link" data-scroll-target="#hinweise-zur-lösung-1">Hinweise zur Lösung</a></li>
+  </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Block-4-Loesungen.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Eine Einführung in Agentenbasierte Modellierung mit Python</h1>
+<h1 class="title">Mögliche Lösungen zu den Aufgaben aus Block 4</h1>
 </div>
 
 
@@ -162,71 +168,145 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Dieser Kurs richtet sich an Personen, die gerne mit agentenbasierten Modellen arbeiten möchten und dazu die Programmiersprache Python verwenden möchten. Der setzt keine Kenntnisse in Python voraus und beginnt mit einer sehr konzisen Einführung in die Sprache als solches, wobei der Fokus auf Konzepten liegt, die später beim agentenbasierten Modellieren besonders relevant sind.</p>
-<p>Der Kurs ist in mehrere Blöcke unterteilt, die alle als Playlist über Youtube verfügbar sind. Zudem gibt es Übungsaufgaben und entsprechende Lösungen. Fragen können sehr gerne über die Kommentarfunktion auf Youtube gestellt werden und auch Feedback jeglicher Art ist sehr willkommen.</p>
-<section id="block-1-allgemeine-einführung" class="level1">
-<h1>Block 1: Allgemeine Einführung</h1>
+<p>Beide Aufgaben beziehen sich auf die Implementierung des Arthur Modells, das in den Video Lectures entwickelt wurde. Ihr könnt entweder eure eigene, oder die von mir vorbereitete Implementierung als Ausgangspunkt verwenden.</p>
+<p>In den Hausaufgaben geht es vor allem darum, die Implementierung nachzuvollziehen. Dann sollt ihr die folgenden beiden Erweiterungen implementieren und die Effekte entsprechend visualisieren.</p>
+<p>Dazu könnt ihr entweder neue subplots zu der vorgeschlagenen Visualisierung hinzufügen, eine neue Form der Visualisierung erstellen, oder einen der alten Fälle in der alten Visualisierung ersetzen.</p>
+<section id="erweiterung-des-arthur-modells-i" class="level1">
+<h1>Erweiterung des Arthur Modells I</h1>
+<blockquote class="blockquote">
+<p>Erstellt eine dritte Art der Nachbarschaft: hier sollen für jeden Agenten vier andere Agenten zufällig als Nachbard ausgewählt werden.</p>
+</blockquote>
+<p><em>Hinweis 1: die Auswahl der Agenten kann durch die <code>numpy.random.choice</code> Funktion implementiert werden. Allerdings müsst ihr sicherstellen, dass kein Agent zweimal gezogen wird, und dass kein Agent in seiner eigenen Nachbarschaft ist.</em></p>
+<p><em>Hinweis 2: In dieser Implementierung soll für einen Agent <span class="math inline">\(i\)</span>, der Nachbar von Agent <span class="math inline">\(j\)</span> ist, nicht automatisch gelten, dass Nachbar <span class="math inline">\(j\)</span> ein Nachbar von Agent <span class="math inline">\(i\)</span> ist. Der Nachbarschaftsbegriff ist hier also weit: es kann auch bedeuten, dass sich Agent <span class="math inline">\(i\)</span> an Agent <span class="math inline">\(j\)</span> orientiert, aber nicht umgekehrt (z.B. weil <span class="math inline">\(j\)</span> ein Star, und <span class="math inline">\(i\)</span> ein follower ist).</em></p>
+<section id="hinweise-zur-lösung" class="level2">
+<h2 class="anchored" data-anchor-id="hinweise-zur-lösung">Hinweise zur Lösung</h2>
+<p>Das Modell muss hierfür nicht fundamental geändert werden. Die folgenden Änderungen müssen durchgeführt werden:</p>
 <ul>
-<li><a href="https://www.youtube.com/playlist?list=PLZDawQMrG1RIKpugV84Wj6qEbY1jRg3Gd">Link zu den Videos</a></li>
-<li><a href="../../teaching/abm-de/Block-1-Loesungen.html">Mögliche Lösungen für die Aufgaben</a></li>
+<li>In der <code>__init__</code> Funktion der Klasse <code>Model</code> muss die Möglichkeit zugelassen werden, dass die Nachbarschaft <code>random</code> spezifiziert wird.</li>
 </ul>
-<p>Diese Session stellt eine allererste Einführung in die Programmiersprache Python dar. Die zentralen Themen sind:</p>
-<ol type="1">
-<li>Allgemeine Einführung und grundlegende Befehle</li>
-<li>Benutzung der IDE Spyder<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
-<li>Datentypen in Python</li>
-<li>Funktionen</li>
-<li>If/Else Statements</li>
-<li>Module</li>
-<li>Fehlermeldungen</li>
-</ol>
-</section>
-<section id="block-2-objektorientierten-programmierung" class="level1">
-<h1>Block 2: Objektorientierten Programmierung</h1>
+<pre class="{r}"><code>class Model:
+    """...   
+    """
+     
+    def __init__(self, n_agents, neighborhood_str, identifier):
+        """...
+        """
+        # No change
+        assert neighborhood_str in ["ring", "full", "random"], "No correct neighborhood \
+        structure specified. Currently allowed: 'full' or 'ring' or 'random', but not {}"\
+        .format(neighborhood_str)
+        self.neighborhood = neighborhood_str</code></pre>
 <ul>
-<li><a href="https://youtube.com/playlist?list=PLZDawQMrG1RIBILnUDmQl9OskMbk0AVk9&amp;feature=shared">Link zu den Videos</a></li>
-<li><a href="../../teaching/abm-de/Block-2-Loesungen.html">Mögliche Lösungen für die Aufgaben</a></li>
+<li>Die Funktion <code>create_neighborhood_structure</code> muss ergänzt werden. Folgender Code wäre möglich:</li>
 </ul>
-<p>Diese Session widmet sich gänzlich dem Konzept der Klassen und der objektorientierten Programmierung. Insbesondere lernen wir:</p>
-<ol type="1">
-<li>wie wir selbst Klassen erstellen</li>
-<li>wie Klassen zu den bereits eingeführten Typen stehen</li>
-<li>wie wir Klassen- und Instanzenattribute erstellen</li>
-<li>wie wir Klassenfunktionen erstellen</li>
-</ol>
-</section>
-<section id="block-3-matrizen-datenmanagement-und-visualisierung" class="level1">
-<h1>Block 3: Matrizen, Datenmanagement und Visualisierung</h1>
+<pre class="{r}"><code>class Model:
+    """...
+    """
+     
+    def __init__(self, n_agents, neighborhood_str, identifier):
+        """...
+        """
+    # No change
+        
+    def create_neighborhood_structure(self):
+        """...
+        """
+        if self.neighborhood == "ring":
+            print("Creating ring neighborhood...", end="")
+            # No change
+                
+        elif self.neighborhood == "full":
+            print("Creating full neighborhood...", end="")
+            # No change
+            
+        elif self.neighborhood == "random":
+            print("Creating random neighborhood...", end="")
+            for a in range(len(self.agentlist)):
+                neighborhood_choice_list = self.agentlist.remove(self.agentlist[a])
+                self.agentlist[a].add_neighbors(np.random.choice(self.agentlist, size=4, replace=False))</code></pre>
+<p>Hierbei sind zwei Punkte zu beachten: * Wir müssen verhindern, dass der Agent sich selbst zu seiner Nachbarschaft hinzufügt indem man einer Variable <code>neighborhood_choice_list</code> erstellt, die alle Agenten außer dem Agenten selbst enthält * Wir müssen verhindern, dass ein Agent doppelt für die Nachbarschaft gezogen wird, das heißt <code>np.random.choice</code> muss mit dem Argumten <code>replace=False</code> aufgerufen werden.</p>
 <ul>
-<li><a href="https://www.youtube.com/playlist?list=PLZDawQMrG1RIUqveSeYearNBs47M8tsLz">Link zu den Videos</a></li>
-<li><a href="../../teaching/abm-de/Block-3-Loesungen.html">Mögliche Lösungen für die Aufgaben</a></li>
+<li>Zuletzt muss noch die Klasse <code>Main</code> angepasst werden, indem auch Modellinstanzen mit einer zufälligen Nachbarschaft erstellt werden. Entsprechend muss das auch im <code>neighborhood_dict</code> berücksichtigt werden:</li>
 </ul>
-<p>Dieser Block ist besonders umfangreich und umfasst drei Teile:</p>
-<ol type="1">
-<li>Modul <code>numpy</code>: Einführung in Matrixalgebra und Zufallsprozesse</li>
-<li>Model <code>pandas</code>: Einführung in Input/Output von Daten</li>
-<li>Modul <code>matplotlib</code>: Einführung in das Visualisierung von Daten<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
-</ol>
+<pre class="{r}"><code>class Main:
+    """...
+    """
+    
+    def __init__(self, nb_agents, neighborhood_dict, outcome_filename):
+        # No change
+        self.nb_simulations = (self.neighborhood_dict["full"] + 
+                               self.neighborhood_dict["ring"] + 
+                               self.neighborhood_dict["random"])
+        # No change
+        for i in range(self.neighborhood_dict["random"]):
+            current_model = model.Model(self.nb_agents, "random", self.current_id)
+        # No change
+
+neigh_dict = {"full" : 20, # Nb of simulation runs with complete neigborhood 
+              "ring" : 20, # Nb of simulation runs with ring neigborhood 
+              "random" : 20}</code></pre>
 </section>
-<section id="block-4-ein-agentenbasiertes-technologiewahlmodell" class="level1">
-<h1>Block 4: Ein agentenbasiertes Technologiewahlmodell</h1>
-<ul>
-<li><a href="https://www.youtube.com/playlist?list=PLZDawQMrG1RJ4Czkc_pVtd72HPviy0iUS">Link zu den Videos</a></li>
-<li><a href="../../teaching/abm-de/Block-4-Loesungen.html">Mögliche Lösungen für die Aufgaben</a></li>
-</ul>
-<p>In diesem Block programmieren und analysieren wir gemeinsam ein vollständiges ABM. Das Modell hilft uns besser zu verstehen wie Menschen zwischen verschiedenen Technologien wählen (z.B. WhatsApp und Signal) und warum sich nicht notwendigerweise die “besten” Technologien durchsetzen.</p>
+</section>
+<section id="erweiterung-des-arthur-modells-ii" class="level1">
+<h1>Erweiterung des Arthur Modells II</h1>
+<blockquote class="blockquote">
+<p>Verändert das Modell dahingehend, dass 50% der Agenten eine strikte Präferenz für Technologie 0 und 50% eine strikte Präferenz für Technologie 1 haben.</p>
+</blockquote>
+<p><em>Hinweis: Eine Strikte Präferenz zeigt sich durch einen von Anfang an fixierten Wert für <code>agent.pref_tech_0</code>: für die Hälfte der Agenten soll dieser Wert <span class="math inline">\(0.25\)</span> sein, für die andere Hälfte <span class="math inline">\(0.75\)</span>.</em></p>
+<section id="hinweise-zur-lösung-1" class="level2">
+<h2 class="anchored" data-anchor-id="hinweise-zur-lösung-1">Hinweise zur Lösung</h2>
+<p>Hier muss zunächst eine Änderung in der Klasse <code>Agent</code> vorgenommen werden: wir müssen ein zusätzliches Argument in der <code>__init__</code> Funktion hinzufügen, das spezifiziert ob der Agent entweder Technologie 0 oder Technologie ein setzt.</p>
+<p>Entsprechend muss dann die Funktion <code>tec_choice</code> leicht angepasst werden.</p>
+<pre class="{r}"><code>class Agent():
+    """...
+    """
+    
+    def __init__(self, pref_tech):
+        self.neighborhood = set()       
+        self.tech_chosen = None
+        if pref_tech == 0:
+            self.pref_tech_0 = 0.25
+        else:
+            self.pref_tech_0 = 0.75
+    
+    # No change
+    
+    def tec_choice(self):
+        """...
+        """
+        # No change
+        
+        # make technology choice 
+        if len(techs_neighborhood) &gt; 0:        
+            if self.pref_tech_0 &lt; share_t1:
+                self.tech_chosen = 1
+            else:
+                self.tech_chosen = 0
+        else:
+            if self.pref_tech_0 &lt; 0.5 :
+                self.tech_chosen = 1
+            else:
+                self.tech_chosen = 0</code></pre>
+<p>Zuletzt muss dann noch sichergestellt werden, dass 50% der Agenten mit Präferenz für Tech 0 und 50% mit Präferenz für Tech 1 erstellt werden. Das bedarf einer Änderung in der Klasse <code>Model</code>:</p>
+<pre class="{r}"><code>class Model:
+    """...
+    """
+     
+    def __init__(self, n_agents, neighborhood_str, identifier):
+        """...
+        """
+        self.identifier = identifier
+        n_agents_pref_0 = int(n_agents / 2)
+        n_agents_pref_0 = n_agents - n_agents_pref_0
+        ag_pref_0 = [agent.Agent(0) for i in range(n_agents_pref_0)]
+        ag_pref_1 = [agent.Agent(1) for i in range(n_agents_pref_1)]
+        self.agentlist = ag_pref_0 + ag_pref_1</code></pre>
 
 
 </section>
+</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Seitdem ich diesen Kurs erstellt habe bin ich selber auf Visual Studio Code als IDE gewechselt, das ich insgesamt besser finde.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Für alle, die Daten bislang mit <code>R</code> visualisieren, könnte das neue Paket <a href="https://plotnine.org/">plotnine</a> interessant sein, das sich stark am Design von <code>ggplot2</code> orientiert.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,5 +1,74 @@
 ---
 title: "Eine Einführung in Agentenbasierte Modellierung mit Python"
+format:
+  pdf:
+    toc: false
+  html: 
+    toc: true
 ---
 
-https://claudius-graebner.com/teaching/introduction-abm-deutsch.html
+Dieser Kurs richtet sich an Personen, die gerne mit agentenbasierten Modellen 
+arbeiten möchten und dazu die Programmiersprache Python verwenden möchten.
+Der setzt keine Kenntnisse in Python voraus und beginnt mit einer sehr 
+konzisen Einführung in die Sprache als solches, wobei der Fokus auf Konzepten
+liegt, die später beim agentenbasierten Modellieren besonders relevant sind.
+
+Der Kurs ist in mehrere Blöcke unterteilt, die alle als Playlist über Youtube
+verfügbar sind. Zudem gibt es Übungsaufgaben und entsprechende Lösungen. Fragen
+können sehr gerne über die Kommentarfunktion auf Youtube gestellt werden und 
+auch Feedback jeglicher Art ist sehr willkommen.
+
+# Block 1: Allgemeine Einführung
+
+- [Link zu den Videos](https://www.youtube.com/playlist?list=PLZDawQMrG1RIKpugV84Wj6qEbY1jRg3Gd)
+- [Mögliche Lösungen für die Aufgaben](Block-1-Loesungen.qmd)
+
+Diese Session stellt eine allererste Einführung in die Programmiersprache Python
+dar. Die zentralen Themen sind:
+
+1) Allgemeine Einführung und grundlegende Befehle
+2) Benutzung der IDE Spyder^[Seitdem ich diesen Kurs erstellt habe bin ich selber auf Visual Studio Code als IDE gewechselt, das ich insgesamt besser finde.]
+3) Datentypen in Python
+4) Funktionen
+5) If/Else Statements
+6) Module
+7) Fehlermeldungen
+
+
+
+# Block 2: Objektorientierten Programmierung
+
+- [Link zu den Videos](https://youtube.com/playlist?list=PLZDawQMrG1RIBILnUDmQl9OskMbk0AVk9&feature=shared)
+- [Mögliche Lösungen für die Aufgaben](Block-2-Loesungen.qmd)
+
+Diese Session widmet sich gänzlich dem Konzept der Klassen und der 
+objektorientierten Programmierung. Insbesondere lernen wir:
+
+1) wie wir selbst Klassen erstellen 
+2) wie Klassen zu den bereits eingeführten Typen stehen 
+3) wie wir Klassen- und Instanzenattribute erstellen 
+4) wie wir Klassenfunktionen erstellen 
+
+
+
+# Block 3: Matrizen, Datenmanagement und Visualisierung
+
+- [Link zu den Videos](https://www.youtube.com/playlist?list=PLZDawQMrG1RIUqveSeYearNBs47M8tsLz)
+- [Mögliche Lösungen für die Aufgaben](Block-3-Loesungen.qmd)
+
+Dieser Block ist besonders umfangreich und umfasst drei Teile:
+
+1) Modul `numpy`: Einführung in Matrixalgebra und Zufallsprozesse
+2) Model `pandas`: Einführung in Input/Output von Daten
+3) Modul `matplotlib`: Einführung in das Visualisierung von Daten^[Für alle, die Daten bislang mit `R` visualisieren, könnte das neue Paket [plotnine](https://plotnine.org/) interessant sein, das sich stark am Design von `ggplot2` orientiert.]
+
+# Block 4: Ein agentenbasiertes Technologiewahlmodell
+
+- [Link zu den Videos](https://www.youtube.com/playlist?list=PLZDawQMrG1RJ4Czkc_pVtd72HPviy0iUS)
+- [Mögliche Lösungen für die Aufgaben](Block-4-Loesungen.qmd)
+
+In diesem Block programmieren und analysieren wir gemeinsam ein vollständiges ABM. Das Modell hilft uns besser zu verstehen wie Menschen zwischen verschiedenen Technologien wählen (z.B. WhatsApp und Signal) und warum sich nicht notwendigerweise die "besten" Technologien durchsetzen.
+
+
+
+
