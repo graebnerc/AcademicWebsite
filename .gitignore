@@ -6,6 +6,9 @@
 /.quarto/
 .DS_Store
 AcademicWebsite-env
+requirements.txt 
+# Due to Netlify problem
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
