@@ -7,23 +7,27 @@ title: "Talks and presentations"
 
 ## 2024
 
-- 22.02.2024: [Degrowth: Historical origins, the diversity of the movement and current controversies](pdf/24-02-22_Degrowth.pdf) (Degrowth: Historische Ursprünge, die Vielfalt der Bewegung und aktuelle Kontroversen), Public lecture (Heinrich Böll Foundation, language: German).
-
 - 24.01.2024: [Agent-based modelling and complexity economics](pdf/24-01-19_ComplexityPluralism.pdf) (Agentenbasiertes Modellieren und Komplexitätsökonomik), Public lecture (University of Siegen, language: German).
+
+- 22.02.2024: [Degrowth: Historical origins, the diversity of the movement and current controversies](pdf/24-02-22_Degrowth.pdf) (Degrowth: Historische Ursprünge, die Vielfalt der Bewegung und aktuelle Kontroversen), Public lecture (Heinrich Böll Foundation, language: German).
 
 - 19.01.2024: [Pluralism and Complexity: an alternative to the neoclassical equilibrium approach?](pdf/24-01-24_ComplexityABM.pdf) (Pluralismus und Komplexität: Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?), Public lecture (University of Hamburg, language: German).
 
 ## 2023
 
+- 07.02.2023: The Emergence of Debt and Secular Stagnation in an Unequal Society, Seminar Talk (Chemnitz University of Technology, language: English).
+
+- 14.11.2023: Pluralism and Decoloniality: Friends or Foes?, Public Lecture (University College London, language: English).
+
 - 23.01.2023: [Agent-based modelling and complexity economics](pdf/23-01-26_ComplexityABM.pdf) (Agentenbasiertes Modellieren und Komplexitätsökonomik), Public lecture (University of Siegen, language: German).
 
 ## 2022
 
-- 29.09.202: [Applied Economic Methodology](pdf/22-09-29_AppliedMethodology.pdf), Keynote given at the Second Philosophy \& Economics Conference (University of Vienna, language: English).
+- 29.09.2022: [Applied Economic Methodology](pdf/22-09-29_AppliedMethodology.pdf), Keynote given at the Second Philosophy \& Economics Conference (University of Vienna, language: English).
 
 - 06.09.2022: Automation and Inequalities: The Merits of a Pluralist Research Program in the Context of Automation, Guest Lecture given at the EAEPE Pre-Conference for Young Scholars (Parthenope University of Naples, language: English).
 
-- 02.05.2022: Does the truth lie somewhere in between? A pluralist perspective on global inequality (Liegt die Wahrheit irgendwo dazwischen? Eine plurale Perspektive auf globale Ungleichheit), Public lecture (University of Tübingen, language: German).
+- 02.05.2022: [Does the truth lie somewhere in between? A pluralist perspective on global inequality](pdf/22-05-02_PluralePerspektiveUngleichheit.pdf) (Liegt die Wahrheit irgendwo dazwischen? Eine plurale Perspektive auf globale Ungleichheit), Public lecture (University of Tübingen, language: German).
 
 - 19.12.2022: [The socioeconomic dimension of sufficiency: possible contributions from pluralist economics](pdf/22-12-19_Suffizienz.pdf) (Die sozioökonomischen Dimension von Suffizienz: Mögliche Beiträge der Pluralen Ökonomik), Invited presentation at the symposium on the socio-economic relevance of sufficiency (Europa-University Flensburg, language: German).
 
@@ -31,13 +35,15 @@ title: "Talks and presentations"
 
 - 29.05.2021: Challenges for pluralism in economics (Herausforderungen einer pluralen Ökonomik), Keynote (Spring school of the German Network for Pluralism in Economics, language: German).
 
+- 06.10.2021: Developing System Theory via Agent-Based Modeling, Invited Paper to the International Symposium on Theory Development through Agent-Based Modelling (Hannover, language: English).
+
 - 17.11.2021: Complexity Economics: an alternative to the neoclassical equilibrium approach? (Komplexitätsökonomik - Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?), Invited lecture (Zeppelin University, language: German).
 
 - 03.12.2021: Complexity Economics - A short introduction (Komplexitätsökonomik - Eine kurze Einführung), Invited lecture (FU Berlin, language: German).
 
-- 16.12.2021: Pluralism in Economics \& beyond - How a Plurality of Paradigms Helps Understanding Socio-Ecological Challenges, Invited Talk during the Sustainability and Energy Lectures (Europa-University Flensburg, language: English).
-
 - 19.10.2021: What is pluralist economics? (Was ist Plurale Ökonomik?), Inaugural speech to the public lecture series on pluralism in economics (Christian-Albrechts-University, language: German). Available on Youtube.
+
+- 16.12.2021: Pluralism in Economics \& beyond - How a Plurality of Paradigms Helps Understanding Socio-Ecological Challenges, Invited Talk during the Sustainability and Energy Lectures (Europa-University Flensburg, language: English).
 
 - 09.06.2021 (together with Birte Strunk): Why we need pluralist economics (Warum braucht es Plurale Ökonomik?), Keynote (University of Vienna, language: German).
 
