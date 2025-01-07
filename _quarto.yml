@@ -2,7 +2,8 @@ project:
   type: website
   pre-render: 
   - scripts/create_bibliography.py
-
+  render:
+    - "*.qmd"
 website:
   title: "Claudius Gräbner-Radkowitsch"
   description: "Claudius is professor for pluralist economics and works on socio-ecological transformations, technological change, and the philosophy of economics."

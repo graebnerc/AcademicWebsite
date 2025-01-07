@@ -6,6 +6,8 @@ format:
     toc: false
   html: 
     toc: true
+execute:
+  freeze: true  # never re-render during project render
 ---
 
 Beide Aufgaben beziehen sich auf die Implementierung des Arthur Modells, das in den Video Lectures entwickelt wurde. 

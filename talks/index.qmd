@@ -9,6 +9,8 @@ title: "Talks and presentations"
 
 - 24.01.2024: [Agent-based modelling and complexity economics](pdf/24-01-19_ComplexityPluralism.pdf) (Agentenbasiertes Modellieren und Komplexitätsökonomik), Public lecture (University of Siegen, language: German).
 
+- 22.11.2024: [The Plurality of Pluralist Economics](pdf/24-11-22_PluralityPluralism.pdf) (Die Pluralität der Pluralen Ökonomik), Public lecture (University of Hamburg, language: German).
+
 - 22.02.2024: [Degrowth: Historical origins, the diversity of the movement and current controversies](pdf/24-02-22_Degrowth.pdf) (Degrowth: Historische Ursprünge, die Vielfalt der Bewegung und aktuelle Kontroversen), Public lecture (Heinrich Böll Foundation, language: German).
 
 - 19.01.2024: [Pluralism and Complexity: an alternative to the neoclassical equilibrium approach?](pdf/24-01-24_ComplexityABM.pdf) (Pluralismus und Komplexität: Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?), Public lecture (University of Hamburg, language: German).
@@ -40,6 +42,8 @@ title: "Talks and presentations"
 - 17.11.2021: Complexity Economics: an alternative to the neoclassical equilibrium approach? (Komplexitätsökonomik - Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?), Invited lecture (Zeppelin University, language: German).
 
 - 03.12.2021: Complexity Economics - A short introduction (Komplexitätsökonomik - Eine kurze Einführung), Invited lecture (FU Berlin, language: German).
+
+- 22.11.2024: [The Plurality of Pluralism in Economics](pdf/24-11-22_PluralityPluralism.pdf) (Die Pluralität der Pluralen Ökonomik - Überlegungen zur Zukunft des Pluralismus in der VWL), Keynote at the symposium "The Future of Pluralist Economics" (University of Hamburg, language: German).
 
 - 19.10.2021: What is pluralist economics? (Was ist Plurale Ökonomik?), Inaugural speech to the public lecture series on pluralism in economics (Christian-Albrechts-University, language: German). Available on Youtube.
 

@@ -6,6 +6,8 @@ format:
     toc: false
   html: 
     toc: true
+execute:
+  freeze: true  # never re-render during project render
 ---
 
 # Aufgabenblock 1: Die Studentenklasse
