@@ -5,15 +5,19 @@ title: "Talks and presentations"
 # Academic keynotes and invited talks
 <!-- keynotes -->
 
+## 2025
+
+- 19.01.2024: [Does the truth lie somewhere in between? A pluralist perspective on global inequality](pdf/25-05-22_KielEntwicklung.pdf) (Liegt die Wahrheit irgendwo dazwischen? Eine plurale Perspektive auf globale Ungleichheit), Public lecture (Christian-Albrechts-University Kiel, language: German).
+
 ## 2024
 
 - 24.01.2024: [Agent-based modelling and complexity economics](pdf/24-01-19_ComplexityPluralism.pdf) (Agentenbasiertes Modellieren und Komplexitätsökonomik), Public lecture (University of Siegen, language: German).
 
-- 22.11.2024: [The Plurality of Pluralist Economics](pdf/24-11-22_PluralityPluralism.pdf) (Die Pluralität der Pluralen Ökonomik), Public lecture (University of Hamburg, language: German).
-
 - 22.02.2024: [Degrowth: Historical origins, the diversity of the movement and current controversies](pdf/24-02-22_Degrowth.pdf) (Degrowth: Historische Ursprünge, die Vielfalt der Bewegung und aktuelle Kontroversen), Public lecture (Heinrich Böll Foundation, language: German).
 
 - 19.01.2024: [Pluralism and Complexity: an alternative to the neoclassical equilibrium approach?](pdf/24-01-24_ComplexityABM.pdf) (Pluralismus und Komplexität: Ein Gegenentwurf zur neoklassischen Gleichgewichtsökonomik?), Public lecture (University of Hamburg, language: German).
+
+- 22.11.2024: [The Plurality of Pluralist Economics](pdf/24-11-22_PluralityPluralism.pdf) (Die Pluralität der Pluralen Ökonomik), Public lecture (University of Hamburg, language: German).
 
 ## 2023
 
@@ -99,12 +103,16 @@ Here I collect material used in smaller courses or invited talks.
 # Podcasts and interviews
 <!-- podcasts -->
 
+## 2025
+
+- Schleswig-: Motorola und das Förderdesaster in Flensburg (NDR), in: _olstein Magazin_ (by NDR; language: German).
+
 ## 2023
 
-- 02.12.2023: Pluralist Economics And Improving The Science Of Economics, in: _Jack Roycroft-Sherry's Science Podcast_ (by Roycroft-Sherry J.; language: English): [Link](https://www.youtube.com/watch?v=LclfJxXoKwU).
+- 02.12.2023: Pluralist Economics And Improving The Science Of Economics, in: _Jack Roycroft-Sherry's Science Podcast_ (by Roycroft-Sherry J.; language: English).
 
 ## 2022
 
-- 27.05.2022: Agent-Based Modelling, in: _Podcast In der Wirtschaft_ (by Cremer J., Middelanis M.; language: German): [Link](https://inderwirtschaft.home.blog/2022/05/27/folge-46-claudius-grabner-radkowitsch/).
+- 27.05.2022: Agent-Based Modelling, in: _Podcast In der Wirtschaft_ (by Cremer J., Middelanis M.; language: German).
 
 <!-- /podcasts -->
