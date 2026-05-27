@@ -89,3 +89,6 @@ venv.bak/
 .spyderproject
 .spyproject
 academicwebsite
+
+**/*.quarto_ipynb
+.positai
