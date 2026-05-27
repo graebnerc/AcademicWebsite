@@ -313,6 +313,37 @@ if False:
     render_podcast(parsed_bibtex3["2022"][0])
 
 #%%
+def render_working_paper(entry) -> str:
+    """Turns a bibtex entry for a working paper into markdown text
+
+    Parameters
+    ----------
+    entry : dict
+        A bibtex entry from a file parsed by `import_bibtex`; should be of
+        type 'article' with a working-paper series as the journal field.
+
+    Returns
+    -------
+    str
+        A markdown string describing the working paper.
+    """
+    authors = format_author_names(entry["author"])
+    title = fix_strings(entry.get("title"))
+    series = fix_strings(entry.get("journal"))
+    year = entry.get("year")
+    # WP number may be stored in 'volume' or 'number'
+    wp_number = entry.get("volume") or entry.get("number")
+    url = entry.get("url")
+
+    md_line = f"{authors} ({year}). {title}. _{series}_"
+    if wp_number:
+        md_line += f", No. {wp_number}"
+    if url:
+        md_line += f". [Link]({url})"
+
+    return md_line + "."
+
+#%%
 def render_entry(entry, bibtex_style="publication"):
     """Render a bibtex entry into a markdown reference
     
@@ -341,6 +372,8 @@ def render_entry(entry, bibtex_style="publication"):
         return render_keynote(entry)
     elif bibtex_style == "podcasts":
         return render_podcast(entry)
+    elif bibtex_style == "workingpapers":
+        return render_working_paper(entry)
     elif bibtex_style == "publication":
         if entry["ENTRYTYPE"] == "article":
             return render_article(entry)
@@ -472,8 +505,20 @@ if __name__ == "__main__":
     parsed_bibtex = import_bibtex(bibtex_file_podcasts)
     print("Writing bibliography to " + destination_file_keynotes)
     save_md_bibliography(
-        parsed_bibtex, destination_file_keynotes, 
-        bibtex_style="podcasts", 
+        parsed_bibtex, destination_file_keynotes,
+        bibtex_style="podcasts",
         destination_div="podcasts")
+    print("Done.")
+
+    print(f"Rendering working papers...")
+    bibtex_file_wp: str = "research/wp/workingpaper.bib"
+    destination_file_wp: str = "research/wp/index.qmd"
+    print("Reading BibTeX file from " + bibtex_file_wp)
+    parsed_bibtex = import_bibtex(bibtex_file_wp)
+    print("Writing bibliography to " + destination_file_wp)
+    save_md_bibliography(
+        parsed_bibtex, destination_file_wp,
+        bibtex_style="workingpapers",
+        destination_div="workingpapers")
     print("Done.")
     
