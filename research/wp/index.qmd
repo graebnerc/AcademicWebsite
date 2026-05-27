@@ -1,5 +1,37 @@
 ---
-title: Working paper
+title: Working papers
 ---
 
-Information about working papers can be found on the website of my [department](https://www.uni-flensburg.de/en/pluralist-economics/research#c142489).
+<!-- workingpapers -->
+
+## 2026
+
+- **Gräbner-Radkowitsch C.**, Petersen D. (2026). Donut-\"Okonomie. _ICAE Working Paper_, No. 179. [Link](https://www.jku.at/fileadmin/gruppen/108/ICAE_Working_Papers/wp179.pdf).
+
+- **Gräbner-Radkowitsch C.** (2026). One Movement, Two Registers: Scholarship, Advocacy, and Their Division of Labor in the Pluralism-in-Economics Movement. _ICAE Working Paper_, No. 181. [Link](https://www.jku.at/fileadmin/gruppen/108/ICAE_Working_Papers/wp181.pdf).
+
+## 2025
+
+- Dominy J., **Gräbner-Radkowitsch C.**, Kapeller J., Heimberger P. (2025). Development Models in the Race for the Best Location. _ICAE Working Paper_, No. 159. [Link](https://www.jku.at/fileadmin/gruppen/108/ICAE_Working_Papers/wp163.pdf).
+
+- **Gräbner-Radkowitsch C.**, Strunk B. (2025). Short-Term Trade Dependencies of the South as an Obstacle to Degrowth? Quantifying the Twin Challenge of Global Dependencies. _ICAE Working Paper_, No. 163. [Link](https://www.jku.at/fileadmin/gruppen/108/ICAE_Working_Papers/wp163.pdf).
+
+- **Gräbner-Radkowitsch C.**, Kapeller J., Pühringer S. (2025). Transformations - An Institutionalist View. _ICAE Working Paper_, No. 161. [Link](https://www.jku.at/fileadmin/gruppen/108/ICAE_Working_Papers/wp161.pdf).
+
+- **Gräbner-Radkowitsch C.**, Kapeller J. (2025). Path Dependence. _IfSO Working Paper_, No. 36. [Link](https://www.uni-due.de/imperia/md/content/soziooekonomie/ifsowp36_graebner-radkowitschkapeller_2024.pdf).
+
+## 2024
+
+- **Gräbner-Radkowitsch C.**, Kapeller J. (2024). Systemism. _ICAE Working Paper_, No. 155. [Link](https://www.jku.at/fileadmin/gruppen/108/ICAE_Working_Papers/wp155.pdf).
+
+## 2020
+
+- **Gräbner C.**, Hafele J. (2020). The Emergence of Core-Periphery Structures in the European Union: A Complexity Perspective. _ZOE Discussion Papers_, No. 6. [Link](https://zoe-institut.de/wp-content/uploads/2020/09/zoe-dp6-graebner-hafele-core-periphery.pdf).
+
+## 2019
+
+- **Gräbner C.**, Ghorbani A. (2019). Defining Institutions - A Review and a Synthesis. _ICAE Working Paper_, No. 89. [Link](https://www.jku.at/fileadmin/gruppen/108/ICAE\_Working\_Papers/wp89.pdf).
+
+- **Gräbner C.** (2019). Unrealistic Models and How to Identify Them: On Accounts of Model Realisticness. _ICAE Working Paper_, No. 90.
+
+<!-- /workingpapers -->
