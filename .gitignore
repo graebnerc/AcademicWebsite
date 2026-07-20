@@ -92,3 +92,8 @@ academicwebsite
 
 **/*.quarto_ipynb
 .positai
+
+# Private tabular CV source and its Word export (local only). The generated
+# data/*.pdf downloads are committed and must NOT be ignored.
+cv/*.docx
+cv/GraebnerRadkowitsch-CV.pdf

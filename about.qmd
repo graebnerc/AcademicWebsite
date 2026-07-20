@@ -13,6 +13,12 @@ about:
     - icon: journals
       text: ORCID
       href: https://orcid.org/0000-0003-4065-4722
+    - icon: file-earmark-pdf
+      text: Curriculum Vitae (PDF)
+      href: data/GraebnerRadkowitsch-CV_full.pdf
+    - icon: file-earmark-text
+      text: Publication list (PDF)
+      href: data/Publication_List.pdf
     - icon: key
       text: PGP Keys
       href: data/PublicKey_3956F627.asc
